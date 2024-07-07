@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+}
+/* Header */
+header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+/* Nav Styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+.nav-title span {
+  color: #fd6e0a;
+}
+.dark-2 {
+  color: #474747;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border: 3px solid #fd6e0a;
+  padding: 18px 35px;
+  border-radius: 5px;
+}
+.btn-primary:hover {
+  background-color: white;
+  color: #fd6e0a;
+}
+.btn-secondary {
+  color: #fd6e0a;
+  border: 3px solid #fd6e0a;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 18px 35px;
+  border-radius: 5px;
+}
+.btn-secondary:hover {
+  background-color: #fd6e0a;
+  color: white;
+}
+/* baner styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+.banner-greetings {
+  font-size: 45px;
+  font-weight: bold;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: bolder;
+}
+.banner-description {
+  font-size: 18px;
+}
+.banner-profile-pic {
+  width: 100%;
+  height: 700px;
+}
+/* section styles */
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+}
+.section-description {
+  font-size: 18px;
+  color: #979797;
+}
+/* main styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/* about style */
+#about {
+  text-align: center;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  padding: 130px 150px;
+  margin-top: 130px;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+.item-title {
+  color: #979797;
+  font-size: 20px;
+}
+.item-description {
+  font-weight: bold;
+  font-size: 20px;
+}
+/* skills styles */
+.skills {
+  margin-top: 160px;
+  text-align: center;
+}
+.skills-container {
+  margin-top: 50px;
+  display: flex;
+  text-align: left;
+  gap: 50px;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-title {
+  font-size: 20px;
+  line-height: 3;
+}
+.skill-description {
+  font-size: 16px;
+  line-height: 2;
+}
+.resume {
+  margin-top: 160px;
+  text-align: center;
+}
+.resume-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: start;
+  gap: 130px;
+}
+.resume-title {
+  font-size: 30px;
+  font-weight: bold;
+}
+.summary-title {
+  font-size: 25px;
+}
+.summary-year {
+  font-size: 20px;
+}
+.summary-description {
+  font-size: 16px;
+}
+/* footer styles */
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+.footer-column {
+  width: 50%;
+}
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
+}
